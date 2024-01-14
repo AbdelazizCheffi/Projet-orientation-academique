@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Website Title</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="font-awesome.css">
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Your content goes here -->
+    
+    <div class="container-fluid px-2 py-5 mx-auto">
+        <div class="row d-flex justify-content-center m-5">
+        <div class="col-xl-9 col-lg-10 col-md-11">
+        <div class="card rounded-lg b-0">
+        <div class="card-header">
+        <div class="row d-flex justify-content-between">
+        <div class="">
+        <H1 >Explorez votre avenir : Découvrez votre orientation académique et professionnelle</H1>
+        <P style="font-size: 20px;"><br>
+            Notre formulaire interactif a pour objectif de prédire votre orientation académique en se 
+            basant sur les réponses que vous fournissez. Les questions stratégiques posées sont spécifiquement élaborées pour évaluer 
+            vos préférences, compétences et aspirations. 
+            Répondez simplement et honnêtement aux questions ci-dessus pour bénéficier d'une recommandation personnalisée concernant votre orientation 
+            académique et professionnell,plus vos réponses sont précises, plus les recommandations seront adaptées à vos préférences et aspirations uniques.<br><br>
+            <b>Toutes les questions sont obligatoires. Toutes les réponses sont anonymes.</b>
+        </P>
+            <br>
+        </div>
+        
+        </div>
+        </div>
+        
+        <div class="card-body show pt-0">
+
+
+        <h4 class="heading mb-4 pb-1"><br>Votre diplome de baccalauréat</h4>
+
+
+        <form action=" " method="post">
+
+
+
+        <div class="form-group"> <label class="form-control-label">Quel type de baccalauréat avez-vous obtenu? * :</label> 
+        
+        <select id="bac" name="bac" class="form-control" required>
+            <option value="">Sélectionnez un type de baccalauréat</option>
+            <option value="ECONOMIE ET SOCIALE (ÉQUIVALENT)">Economie et sociale</option>
+            <option value="LITTÉRAIRE (ÉQUIVALENT)">Littéraire</option>
+            <option value="PROFESSIONNEL">Professionnel</option>
+            <option value="SCIENTIFIQUE (ÉQUIVALENT)">Scientifique</option>
+            <option value="TECHNIQUE (ÉQUIVALENT)">Technique </option>
+        </select>
+
+        </div>
+
+
+        <div class="form-group"> <label class="form-control-label">Êtes-vous content du type du bac que vous avez choisie ?</label> 
+
+            <select id="satisfact_formation" name="satisfact_formation" class="form-control" >
+    
+                <option value="">Sélectionnez une reponse</option>
+                <option value="OUI">Oui</option>
+                <option value="NON">Non</option>
+
+            </select> 
+        
+        </div>
+
+
+        <div class="form-group"> <label class="form-control-label">Quelle a été votre mention au baccalauréat? * :</label> 
+            
+        <select id="mention" name="mention" class="form-control" required>
+            <option value="">Sélectionnez une mention</option>
+            <option value="PASSABLE">Passable</option>
+            <option value="ASSEZ-BIEN">Assez-bien</option>
+            <option value="BIEN">Bien</option>
+            <option value="TRÈS-BIEN">Très-bien</option>
+            <option value="HONORABLE">Honorable</option>
+        </select> 
+        </div>
+
+        <div class="form-group"> <label class="form-control-label">Quel était votre tranche d'âge au moment de l'obtention votre bac? *:</label>  
+
+        <select id="tranche_age" name="tranche_age" class="form-control">
+                <option value="">Sélectionnez une tranche d'âge</option>
+                <option value="12-17">12-17 ans</option>
+                <option value="18-21">18-21 ans</option>
+                <option value="22-25">22-25 ans</option>
+        </select> 
+        </div>
+
+        
+
+
+
+        <h4 class="heading mb-4 pb-1">Votre parcours et préférences</h4></label>
+       
+        <div class="form-group"> <label class="form-control-label">Préfériez-vous des études de courte ou de longue durée ? * :</label>
+
+        <select id="type_etu" name="type_etu" class="form-control">
+                <option value="">Sélectionnez vos préférences</option>
+                <option value="COURTES ( < MASTER)">Des études de courte durée</option>
+                <option value="LONGUES (>= MASTER)">Des études de longue durée</option>
+            </select>
+
+        </div>
+
+
+        <div class="form-group"> <label class="form-control-label">Vers quels secteurs académiques dirigez-vous votre intérêt et votre engagement ?* :</label>
+
+            <select id="domaine_etu" name="domaine_etu" class="form-control">
+                <option value="">Sélectionnez un secteur</option>
+                <option value="ARTS">Arts</option>
+                <option value="DROIT ET SCIENCES POLITIQUES">Droit et sciences politiques</option>
+                <option value="ECONOMIE ET GESTION">Economie et gestion</option>
+                <option value="LETTRES, LANGUES ET ART">Lettres, langues et art</option>
+                <option value="SCIENCES DE LA VIE ET DE LA SANTÉ">Sciences de la vie et de la santé</option>
+                <option value="SCIENCES ET TECHNOLOGIES">Sciences et technologies</option>
+                <option value="SCIENCES HUMAINES ET SOCIALES">Sciences humaines et sociales</option> 
+            </select>
+
+        </div>
+        
+        <div class="form-group"> <label class="form-control-label">Dans quelles disciplines vous sentez-vous le plus à l'aise ?* :</label> 
+
+        <select id="Col_specialite1" name="Col_specialite1" class="form-control">
+                <option value="">Sélectionnez une discipline</option>
+                <option value="MATHÉMATIQUES">Mathématiques</option>
+                <option value="PHYSIQUE-CHIMIE (PC)">Physique-chimie (PC)</option>
+                <option value="SCIENCES DE LA VIE ET DE LA TERRE (SVT)">Sciences de la vie et de la Terre (SVT)</option>
+                <option value="LITTÉRATURE ET PHILOSOPHIE">Littérature et Philosophie</option>
+                <option value="HISTOIRE-GÉOGRAPHIE ( HGGSP )">Histoire - Géographie</option>
+                <option value="ARTS">Arts</option>
+                <option value="SCIENCES ÉCONOMIQUES ET SOCIALES">Sciences économiques et sociales</option>
+                <option value="SCIENCES DE L'INGÉNIEUR">Sciences de l'ingénieur</option>
+                <option value="SCIENCES HUMAINES">Sciences humaines</option>
+                <option value="NUMÉRIQUES ET SCIENCES INFORMATIQUES">Numériques et sciences informatiques</option>
+        </select> 
+        
+        </div>
+            
+        
+        <div class="form-group"> <label class="form-control-label">Dans quelles matières vous sentez-vous le plus compétent ? * :</label> 
+            
+        <select id="Col_matière_prefere1" name="Col_matière_prefere1" class="form-control">
+                <option value="">Sélectionnez une matière </option>
+                <option value="FRANÇAIS">FRANÇAIS</option>
+                <option value="MATHÉMATIQUES">Mathématiques</option>
+                <option value="PHYSIQUE-CHIMIE (PC)">Physique-chimie (PC)</option>
+                <option value="SCIENCES DE LA VIE ET DE LA TERRE (SVT)">Sciences de la vie et de la Terre (SVT)</option>
+                <option value="LANGUES ÉTRANGÈRES">LANGUES ÉTRANGÈRES</option>
+                <option value="HISTOIRE-GÉOGRAPHIE ( HGGSP )">Histoire - Géographie</option>
+                <option value="ART">Art</option>
+                <option value="SCIENCES ÉCONOMIQUES ET SOCIALES">Sciences économiques et sociales</option>
+                <option value="ÉDUCATION PHYSIQUE ET SPORTIVE">ÉDUCATION PHYSIQUE ET SPORTIVE</option>
+                <option value="SCIENCES NUMÉRIQUES ET TECHNOLOGIE">SCIENCES NUMÉRIQUES ET TECHNOLOGIE</option>
+                <option value="PHILOSOPHIE">PHILOSOPHIE</option>        
+        </select> 
+        <select id="Col_matière_prefere2" name="Col_matière_prefere2" class="form-control">
+            <option value="">Sélectionnez une deuxième matière </option>
+            <option value="FRANÇAIS">FRANÇAIS</option>
+            <option value="MATHÉMATIQUES">Mathématiques</option>
+            <option value="PHYSIQUE-CHIMIE (PC)">Physique-chimie (PC)</option>
+            <option value="SCIENCES DE LA VIE ET DE LA TERRE (SVT)">Sciences de la vie et de la Terre (SVT)</option>
+            <option value="LANGUES ÉTRANGÈRES">LANGUES ÉTRANGÈRES</option>
+            <option value="HISTOIRE-GÉOGRAPHIE ( HGGSP )">Histoire - Géographie</option>
+            <option value="ART">Art</option>
+            <option value="SCIENCES ÉCONOMIQUES ET SOCIALES">Sciences économiques et sociales</option>
+            <option value="ÉDUCATION PHYSIQUE ET SPORTIVE">ÉDUCATION PHYSIQUE ET SPORTIVE</option>
+            <option value="SCIENCES NUMÉRIQUES ET TECHNOLOGIE">SCIENCES NUMÉRIQUES ET TECHNOLOGIE</option>
+            <option value="PHILOSOPHIE">PHILOSOPHIE</option>        
+    </select> 
+        </div>
+
+
+
+
+        <h4 class="heading mb-4 pb-1">Informations personnels</h4></label>
+
+        <div class="form-group"> <label class="form-control-label">Quel est votre genre ?* :</label>
+
+            <select id="type_etu" name="type_etu" class="form-control">
+                <option value="">Sélectionnez votre genre</option>
+                <option value="MASCULIN">Masculin</option>
+                <option value="FÉMININ">Féminin</option>
+            </select>
+    
+        </div>
+
+        <div class="form-group"> <label class="form-control-label"> Quel type d'établissement visez-vous pour poursuivre vos études ?* :</label>
+
+            <select id="type_lieu_etu" name="type_lieu_etu" class="form-control">
+                <option value="">Sélectionnez un type d'etablissement</option>
+                <option value="BTS">BTS</option>
+                <option value="BUT">BUT</option>
+                <option value="CLASSE PRÉPARATOIRE">CLASSE PRÉPARATOIRE</option>
+                <option value="DUT">DUT</option>
+                <option value="ECOLE DE COMMERCE">ECOLE DE COMMERCE</option>
+                <option value="ECOLE PRIVÉE">BUT</option>
+                <option value="GRANDE ÉCOLE / ÉCOLE D'INGÉNIEURE">GRANDE ÉCOLE / ÉCOLE D'INGÉNIEURE</option>
+                <option value="UNIVERSITÉ">UNIVERSITÉ</option>
+            </select>
+    
+        </div>
+           
+
+        <div class="form-group"> <label class="form-control-label"> Quel est le niveau de diplôme que vous visez ?* :</label>
+
+            <select id="Niveau_etu" name="Niveau_etu" class="form-control">
+                <option value="">Sélectionnez un niveau de diplôme</option>
+                <option value="BACHELOR">BACHELOR</option>
+                <option value="DOCTORAT">DOCTORAT</option>
+                <option value="INGÉNIEUR">INGÉNIEUR</option>
+                <option value="LICENCE">LICENCE</option>
+                <option value="MASTER">ECOLE DE COMMERCE</option>
+            </select>
+    
+        </div>
+
+
+
+
+
+
+        <div class="row justify-content-center"> <button class="btn btn-blue next mx-2" id="next3" onclick="validate2(0)">Prédire</button> </div>
+    </form>
+</div>
+        </div>
+        <div class="card-body pt-0">
+        <h4 class="heading mb-4 pb-1">Résultat de l'Orientation</h4>
+        <p>Merci d'avoir répondu aux questions. Basé sur vos réponses, voici notre suggestion d'orientation :</p>
+        <div class="row justify-content-start px-3">
+        <p>Vous semblez avoir une forte affinité pour les matières scientifiques, telles que les mathématiques et la physique-chimie. De plus, votre préférence pour des études de courte durée suggère que vous pourriez être intéressé par des programmes axés sur des compétences techniques. Nous vous suggérons de considérer des domaines tels que l'informatique, l'ingénierie ou les sciences appliquées.</p>
+        </div>
+        <div class="row justify-content-center"> <img src="https://i.imgur.com/krsWHvd.gif" class="check"> </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> 
+    <!-- Bootstrap JS and jQuery -->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="custom.js"></script>
+
+</body>
+
+</html>
